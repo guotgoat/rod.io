@@ -62,11 +62,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Booster\Booster.cs" />
+    <Compile Include="Assets\MainCamera.cs" />
     <Compile Include="Assets\Managers\GameEventManager.cs" />
     <Compile Include="Assets\Managers\GUIManager.cs" />
     <Compile Include="Assets\Managers\ParticleSystemManager.cs" />
-    <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\Platform\PlatformManager.cs" />
+    <Compile Include="Assets\Runner\Move.cs" />
     <Compile Include="Assets\Runner\Runner.cs" />
     <Compile Include="Assets\Skyline\RandomPlayers.cs" />
     <Compile Include="Assets\Skyline\SkylineManager.cs" />
