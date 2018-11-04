@@ -22,10 +22,10 @@ public class RandomPlayers : MonoBehaviour
       
     }
 
-    void OnTriggerEnter()
+    private void OnCollisionEnter(Collision collision)
     {
 
-        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }
 
